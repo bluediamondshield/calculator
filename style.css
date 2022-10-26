@@ -1,3 +1,16 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calculator {
     background-color: rgb(139, 199, 235);
     width: 500px;
@@ -8,8 +21,8 @@
 }
 
 .display {
-    height: 18%;
-    margin: 20px 20px;
+    height: 16%;
+    margin: 20px;
     background-color: rgb(255, 250, 236);
 }
 
@@ -17,10 +30,23 @@
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+    margin: 0 0 20px 20px;
+    gap: 5%;
 }
 
 button {
     padding: 0;
     margin: 0;
-    flex: 0 0 25%;
+    flex: 0 0 20%;
+    border: none;
+    font-size: 30px;
+    color:rgb(2, 2, 90);
+}
+
+.delete {
+    background-color: rgb(243, 141, 141);
+}
+
+.operation {
+    background-color: rgb(219, 255, 118);
 }

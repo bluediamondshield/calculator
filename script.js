@@ -51,8 +51,8 @@ equalsButton.addEventListener("click", () => {
 })
 
 function updateDisplay() {
-    let n1Display = (num1 === "" ? "" : +num1)
-    let n2Display = (num2 === "" ? "" : +num2)
+    let n1Display = (num1 === "" ? "" : Math.round(+num1*100)/100)
+    let n2Display = (num2 === "" ? "" : Math.round(+num2*100)/100)
 
     display.innerHTML = n1Display + currentOperator + n2Display;
 }

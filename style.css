@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -24,6 +25,11 @@ body {
     height: 16%;
     margin: 20px;
     background-color: rgb(255, 250, 236);
+    display: flex;
+    padding-right: 10px;
+    font-size: 50px;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .buttons {
@@ -39,8 +45,8 @@ button {
     margin: 0;
     flex: 0 0 20%;
     border: none;
-    font-size: 30px;
     color:rgb(2, 2, 90);
+    font-size: 30px;
 }
 
 .delete {
